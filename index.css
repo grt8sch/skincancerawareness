@@ -2,6 +2,7 @@
   padding:10px 20px;
   background-color:grey;
   text-decoration:none;
+  display: inline-block;
   color:white;
 }
 .nav-a:hover{
@@ -9,6 +10,6 @@
   color: black;
 }
 nav{
-  position:fixed;
   background-color:grey;
+  width:100%;
 }
