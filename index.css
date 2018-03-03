@@ -8,12 +8,14 @@ body{
   text-decoration:none;
   display: inline-block;
   color:white;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
 }
 #anchor-container{
   margin:0 auto;
   display:table;
 }
-.nav-a:hover{
+.nav-a:hover,.nav-a.selected{
   background-color:white;
   color: black;
 }
