@@ -1,3 +1,7 @@
+body{
+  margin:0px;
+  padding:0px;
+}
 .nav-a{
   padding:10px 20px;
   background-color:grey;
