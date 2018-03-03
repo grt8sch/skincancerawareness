@@ -21,6 +21,9 @@ body{
   background-color:white;
   color: black;
 }
+header{
+  padding:0 20px;
+}
 nav{
   background-color:grey;
   width:100%;
