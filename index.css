@@ -11,6 +11,7 @@ body{
 }
 #anchor-container{
   margin:0 auto;
+  display:table;
 }
 .nav-a:hover{
   background-color:white;
