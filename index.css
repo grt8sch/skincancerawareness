@@ -21,7 +21,7 @@ body{
   background-color:white;
   color: black;
 }
-header{
+header,main,footer{
   padding:0 20px;
 }
 nav{
