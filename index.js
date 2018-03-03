@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".nav-a").click(function(){
-    $(this).removeClass("selected");
+    $(".nav-a").removeClass("selected");
     $(this).addClass("selected");
   });
 });
