@@ -9,6 +9,9 @@ body{
   display: inline-block;
   color:white;
 }
+#anchor-container{
+  margin:0 auto;
+}
 .nav-a:hover{
   background-color:white;
   color: black;
