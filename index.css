@@ -30,4 +30,6 @@ nav{
 header{
   background-color: rgb(50, 119, 229);
   color:white;
+  display: inline-block;
+  width: 100%;
 }
