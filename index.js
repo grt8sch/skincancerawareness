@@ -1,5 +1,5 @@
 $(document).ready(function(){
   $(".nav-a").click(function(){
-    this.addClass("selected");
+    $(this).addClass("selected");
   });
 });
