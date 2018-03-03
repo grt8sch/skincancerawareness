@@ -27,3 +27,7 @@ header,main,footer{
 nav{
   background-color:grey;
 }
+header{
+  background-color: rgb(50, 119, 229);
+  color:white;
+}
