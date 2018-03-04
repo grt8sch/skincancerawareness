@@ -2,11 +2,11 @@ $(document).ready(function(){
   //Display Content of Nav
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
-    $(".info-content:eq("+$(".nav-a").index(".selected")+")").attr("style","display:block; opacity:1;");
+    $(".info-content:eq("+$(".selected").index(".nav-a")+")").attr("style","display:block; opacity:1;");
   }
   //Hide Content of Nav
   function hideContent(){
-    $(".info-content:eq("+$(".nav-a").index(".selected")+")").attr("style","display:none; opacity:0;");
+    $(".info-content:eq("+$(".selected").index(".nav-a")+")").attr("style","display:none; opacity:0;");
   }
   displayContent();
   //Navigation
