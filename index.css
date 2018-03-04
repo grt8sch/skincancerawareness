@@ -24,6 +24,9 @@ body{
 main{
   padding:0 20px;
 }
+nav,header{
+  user-select:none;
+}
 nav{
   background-color:grey;
 }
@@ -33,4 +36,8 @@ header{
   display: inline-block;
   width: 100%;
   text-align:center;
+}
+.info-content{
+  opacity:0;
+  transition:opacity 0.25s;
 }
