@@ -8,7 +8,7 @@ $(document).ready(function(){
   //Display Content of Nav
   function displayContent(){
     resetSelectedInfo();
-    selectedInfo.delay(499).fadeIn(500);
+    selectedInfo.delay(500).fadeIn(500);
   }
   //Hide Content of Nav
   function hideContent(){
