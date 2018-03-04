@@ -6,7 +6,7 @@ $(document).ready(function(){
   }
   //Hide Content of Nav
   function hideContent(){
-    $(".info-content:eq("+$(".nav-a").index(".selected)+")").attr("style","display:none; opacity:0;");
+    $(".info-content:eq("+$(".nav-a").index(".selected")+")").attr("style","display:none; opacity:0;");
   }
   displayContent();
   //Navigation
