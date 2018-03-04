@@ -1,12 +1,18 @@
 $(document).ready(function(){
+  var selectedInfo = $(".info-content:eq("+$(".selected").index(".nav-a")+")");
+  function resetSelectedInfo(){
+    selectedInfo = $(".info-content:eq("+$(".selected").index(".nav-a")+")");
+  }
   //Display Content of Nav
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
-    $(".info-content:eq("+$(".selected").index(".nav-a")+")").attr("style","display:block; opacity:1;");
+    resetSelectedInfo();
+    selectedInfo.attr("style","display:block; opacity:1;");
   }
   //Hide Content of Nav
   function hideContent(){
-    $(".info-content:eq("+$(".selected").index(".nav-a")+")").attr("style","display:none; opacity:0;");
+    resetSelectedInfo();
+    selectedInfo.attr("style","opacity:0; display:none;");
   }
   displayContent();
   //Navigation
