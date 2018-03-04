@@ -9,7 +9,7 @@ $(document).ready(function(){
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
     resetSelectedInfo();
-    selectedInfo.fadeIn(500);
+    selectedInfo.delay(500).fadeIn(500);
   }
   //Hide Content of Nav
   function hideContent(){
