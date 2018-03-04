@@ -9,7 +9,7 @@ $(document).ready(function(){
   function displayContent(){
     resetSelectedInfo();
     selectedInfo.delay(500).fadeIn(500);
-    $("body").css("overflow","visible").delay(500);
+    $("body").delay(500).css("overflow","visible");
   }
   //Hide Content of Nav
   function hideContent(){
