@@ -39,5 +39,6 @@ header{
 }
 .info-content{
   opacity:0;
+  display:none;
   transition:opacity 0.25s;
 }
