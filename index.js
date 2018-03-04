@@ -4,17 +4,17 @@ $(document).ready(function(){
     selectedInfo = $(".info-content:eq("+$(".selected").index(".nav-a")+")");
   }
   $(".info-content").hide();
-  $(".selectedInfo").show();
+  $(".selectedInfo").show(0);
   //Display Content of Nav
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
     resetSelectedInfo();
-    selectedInfo.show(500);
+    selectedInfo.fadeIn(500);
   }
   //Hide Content of Nav
   function hideContent(){
     resetSelectedInfo();
-    selectedInfo.hide(500);
+    selectedInfo.fadeOut(500);
   }
   displayContent();
   //Navigation
