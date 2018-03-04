@@ -5,7 +5,7 @@ body{
 }
 .nav-a{
   padding:15px 25px;
-  background-color:grey;
+  background-color:rgb(122, 122, 122);
   text-decoration:none;
   cursor:pointer;
   display: inline-block;
@@ -17,9 +17,12 @@ body{
   margin:0 auto;
   display:table;
 }
-.nav-a:hover,.nav-a.selected{
+.nav-a.selected{
   background-color:white;
   color: black;
+}
+.nav-a:hover:not(.selected){
+  background-color:rgb(66, 66, 66);
 }
 main{
   padding:0 20px;
@@ -28,7 +31,7 @@ nav,header{
   user-select:none;
 }
 nav{
-  background-color:grey;
+  background-color:rgb(122, 122, 122);
 }
 header{
   background-color: rgb(50, 119, 229);
