@@ -23,7 +23,7 @@ $(document).ready(function(){
   displayContent();
   //Navigation
   $(".nav-a").click(function(){
-    if(!$(this).hasClass("selected")){
+    if($(this).hasClass("selected") == false){
       hideContent();
       $(".nav-a").removeClass("selected");
       $(this).addClass("selected");
