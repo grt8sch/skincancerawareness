@@ -9,11 +9,11 @@ $(document).ready(function(){
   function displayContent(){
     resetSelectedInfo();
     selectedInfo.delay(500).fadeIn(500);
-    $("body").css("overflow","visible")
+    $("body").css("overflow","visible").delay(500);
   }
   //Hide Content of Nav
   function hideContent(){
-    $("body").css("overflow","none")
+    $("body").css("overflow","none");
     resetSelectedInfo();
     selectedInfo.fadeOut(500);
   }
