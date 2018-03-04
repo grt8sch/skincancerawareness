@@ -7,12 +7,13 @@ $(document).ready(function(){
   $(".selectedInfo").show(0);
   //Display Content of Nav
   function displayContent(){
-    console.log($(".selected").index(".nav-a"));
     resetSelectedInfo();
     selectedInfo.delay(500).fadeIn(500);
+    $("body").css("overflow","visible")
   }
   //Hide Content of Nav
   function hideContent(){
+    $("body").css("overflow","none")
     resetSelectedInfo();
     selectedInfo.fadeOut(500);
   }
