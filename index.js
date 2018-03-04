@@ -20,6 +20,7 @@ $(document).ready(function(){
   var isFading = false;
   $(".nav-a").click(function(){
     if (isFading) {
+        console.log("SPAM!");
         return;
     }
     if($(this).hasClass("selected") == false){
@@ -28,7 +29,7 @@ $(document).ready(function(){
       $(".nav-a").removeClass("selected");
       $(this).addClass("selected");
       displayContent();
-      isFading = false
+      isFading = false;
     }
   });
 });
