@@ -10,7 +10,7 @@ $(document).ready(function(){
     resetSelectedInfo();
     selectedInfo.delay(500).fadeIn(500);
     $("body").delay(500).queue(function (next) { 
-      $(this).css("overflow", "visible");
+      $(this).css("overflow", "hidden");
       next(); 
     });
   }
