@@ -4,7 +4,7 @@ $(document).ready(function(){
     selectedInfo = $(".info-content:eq("+$(".selected").index(".nav-a")+")");
   }
   $(".info-content").hide();
-  $("selectedInfo").show();
+  $(".selectedInfo").show();
   //Display Content of Nav
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
