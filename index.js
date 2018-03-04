@@ -3,7 +3,7 @@ $(document).ready(function(){
   function resetSelectedInfo(){
     selectedInfo = $(".info-content:eq("+$(".selected").index(".nav-a")+")");
   }
-  $(".nav-a").hide();
+  $(".info-content").hide();
   $("selectedInfo").show();
   //Display Content of Nav
   function displayContent(){
