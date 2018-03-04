@@ -10,13 +10,13 @@ $(document).ready(function(){
     resetSelectedInfo();
     selectedInfo.delay(500).fadeIn(500);
     $("body").delay(500).queue(function (next) { 
-      $(this).css("overflow", "hidden");
+      $(this).css("overflow", "visible");
       next(); 
     });
   }
   //Hide Content of Nav
   function hideContent(){
-    $("body").css("overflow","none");
+    $("body").css("overflow","hidden");
     resetSelectedInfo();
     selectedInfo.fadeOut(500);
   }
