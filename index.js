@@ -17,12 +17,18 @@ $(document).ready(function(){
   }
   displayContent();
   //Navigation
+  var isFading = false;
   $(".nav-a").click(function(){
+    if (isFading) {
+        return;
+    }
     if($(this).hasClass("selected") == false){
+      isFading = true;
       hideContent();
       $(".nav-a").removeClass("selected");
       $(this).addClass("selected");
       displayContent();
+      isFading = false
     }
   });
 });
