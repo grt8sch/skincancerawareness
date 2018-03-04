@@ -22,10 +22,12 @@ $(document).ready(function(){
   }
   displayContent();
   //Navigation
-  $(".nav-a:not(.selected)").click(function(){
-    hideContent();
-    $(".nav-a").removeClass("selected");
-    $(this).addClass("selected");
-    displayContent();
+  $(".nav-a").click(function(){
+    if(!$(this).hasClass("selected")){
+      hideContent();
+      $(".nav-a").removeClass("selected");
+      $(this).addClass("selected");
+      displayContent();
+    }
   });
 });
