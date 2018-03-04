@@ -29,7 +29,9 @@ $(document).ready(function(){
       $(".nav-a").removeClass("selected");
       $(this).addClass("selected");
       displayContent();
-      isFading = false;
+      setTimeout(function() {
+        isFading = false;
+      }, 500);
     }
   });
 });
