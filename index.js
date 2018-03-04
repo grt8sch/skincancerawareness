@@ -7,12 +7,14 @@ $(document).ready(function(){
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
     resetSelectedInfo();
-    selectedInfo.attr("style","display:block; opacity:1;");
+    selectedInfo.css("display","block");
+    selectedInfo.css("opacity","1");
   }
   //Hide Content of Nav
   function hideContent(){
     resetSelectedInfo();
-    selectedInfo.attr("style","opacity:0; display:none;");
+    selectedInfo.css("opacity","0");
+    selectedInfo.css("display","none");
   }
   displayContent();
   //Navigation
