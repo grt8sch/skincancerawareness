@@ -9,12 +9,12 @@ $(document).ready(function(){
   function displayContent(){
     console.log($(".selected").index(".nav-a"));
     resetSelectedInfo();
-    selectedInfo.show(2500);
+    selectedInfo.show(500);
   }
   //Hide Content of Nav
   function hideContent(){
     resetSelectedInfo();
-    selectedInfo.hide(2500);
+    selectedInfo.hide(500);
   }
   displayContent();
   //Navigation
