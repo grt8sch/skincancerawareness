@@ -47,7 +47,6 @@ header{
   color:white;
   display: inline-block;
   width: 100%;
-  text-align:center;
   background-image: url(sunandsky2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,8 +54,10 @@ header{
 }
 #heading{
     margin: 35px 0;
+    margin-left: 20px;
     font-size: 45px;
     font-family: arial;
+    text-align: left;
 }
 .posstatic{
   position:static;
