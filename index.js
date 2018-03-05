@@ -4,7 +4,7 @@ $(document).ready(function(){
     selectedInfo = $(".info-content:eq("+$(".selected").index(".nav-a")+")");
   }
   $(".info-content").hide();
-  $(".selectedInfo").show(0);
+  $(".selectedInfo").show();
   //Display Content of Nav
   function displayContent(){
     resetSelectedInfo();
@@ -20,7 +20,6 @@ $(document).ready(function(){
   var isFading = false;
   $(".nav-a").click(function(){
     if (isFading) {
-        console.log("SPAM!");
         return;
     }
     if($(this).hasClass("selected") == false){
@@ -32,6 +31,15 @@ $(document).ready(function(){
       setTimeout(function() {
         isFading = false;
       }, 500);
+    }
+  });
+  //Navigation Scroll Top
+  $(window).scroll(function(){
+    if($(window).scrollTop() > $("#navfiller").offset()){
+      //$("")
+      //$("#navfiller")
+    }else{
+      
     }
   });
 });
