@@ -35,10 +35,15 @@ $(document).ready(function(){
   });
   //Navigation Scroll Top
   $(window).scroll(function(){
-    if($(window).scrollTop() > $("#navfiller").offset()){
+    console.log("Scrolling...");
+    console.log("Scroll Value = " + $(window).scrollTop());
+    console.log("Navigation offset =" + $("#mainnav").offset());
+    if($(window).scrollTop() > $("#mainnav").offset()){
+      console.log("fixed");
       $("#mainnav").addClass("fixed").removeClass("posstatic");
       $("#navfiller").height($("#mainnav").height());
     }else{
+      console.log("static");
       $("#mainnav").addClass("posstatic").removeClass("fixed");
       $("#navfiller").height(0);
     }
