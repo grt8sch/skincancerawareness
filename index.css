@@ -24,6 +24,12 @@ body{
 .nav-a:hover:not(.selected){
   background-color:rgb(66, 66, 66);
 }
+#background-image{
+  background-image:url("homeimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 main{
   padding:0 20px;
 }
