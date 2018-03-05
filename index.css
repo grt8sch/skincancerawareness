@@ -36,7 +36,7 @@ main{
 nav,header{
   user-select:none;
 }
-nav{
+#mainnav{
   background-color:rgb(96, 96, 96);
 }
 header{
@@ -45,4 +45,10 @@ header{
   display: inline-block;
   width: 100%;
   text-align:center;
+}
+.posstatic{
+  position:static;
+}
+.fixed{
+  position:fixed;
 }
