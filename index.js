@@ -36,10 +36,11 @@ $(document).ready(function(){
   //Navigation Scroll Top
   $(window).scroll(function(){
     if($(window).scrollTop() > $("#navfiller").offset()){
-      //$("")
-      //$("#navfiller")
+      $("#mainnav").addClass("fixed").removeClass("posstatic");
+      $("#navfiller").height($("#mainnav").height());
     }else{
-      
+      $("#mainnav").addClass("posstatic").removeClass("fixed");
+      $("#navfiller").height(0);
     }
   });
 });
