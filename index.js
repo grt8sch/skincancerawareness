@@ -37,7 +37,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     console.log("Scrolling...");
     console.log("Scroll Value = " + $(window).scrollTop());
-    console.log("Navigation offset =" + $("#mainnav").offset().top);
+    console.log("Navigation offset =" + $("#navfiller").offset().top);
     if($(window).scrollTop() > $("#mainnav").offset().top){
       console.log("fixed");
       $("#mainnav").addClass("fixed").removeClass("posstatic");
