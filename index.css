@@ -2,10 +2,6 @@ body{
   margin:0px;
   padding:0px;
   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
-  background-image:url("homeimg2.jpg");
-  background-size:cover;
-  background-repeat:no-repeat;
-
 }
 .nav-a{
   padding:15px 25px;
@@ -33,6 +29,11 @@ img{
   width: 650px;
   height: 400px;
   float:right;
+}
+#info-background{
+  background-image:url("homeimg2.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 main{
   padding:0 20px;
