@@ -31,13 +31,13 @@ img{
   float:right;
 }
 #info-background{
-  background-image:url("homeimg2.jpg");
-  background-size:cover;
-  background-repeat:no-repeat;
+  background-color:rgba(0,0,0,0.5);
 }
 main{
   padding:0 20px;
-  background-color:rgba(0,0,0,0.8);
+  background-image:url("homeimg2.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 nav,header{
   user-select:none;
