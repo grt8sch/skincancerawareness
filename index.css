@@ -5,7 +5,7 @@ body{
   background-image:url("homeimg2.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-  background-color:rgba(0,0,0,0.8);
+
 }
 .nav-a{
   padding:15px 25px;
@@ -36,6 +36,7 @@ img{
 }
 main{
   padding:0 20px;
+  background-color:rgba(0,0,0,0.8);
 }
 nav,header{
   user-select:none;
