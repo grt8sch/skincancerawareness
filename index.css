@@ -71,3 +71,6 @@ header{
   position:fixed;
   top:0px;
 }
+.info-content article h1:first-child{
+  margin-top: 0;
+}
