@@ -34,6 +34,7 @@ $(document).ready(function(){
     }
   });
   $("#navfiller").height($("#mainnav").height());
+  $("#mainnav").css("top",$("#navfiller").offset().top+"px");
   //Navigation Scroll Top
   $(window).scroll(function(){
     console.log("Scrolling...");
@@ -42,9 +43,11 @@ $(document).ready(function(){
     if($(window).scrollTop() > $("#navfiller").offset().top){
       console.log("fixed");
       $("#mainnav").addClass("fixed").removeClass("absolute");
+      $("#mainnav").css("top","0px");
     }else{
       console.log("absolute");
       $("#mainnav").addClass("absolute").removeClass("fixed");
+      $("#mainnav").css("top",$("#navfiller").offset().top+"px");
     }
   });
 });
