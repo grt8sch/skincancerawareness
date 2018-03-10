@@ -33,6 +33,7 @@ $(document).ready(function(){
       }, 500);
     }
   });
+  $("#navfiller").height($("#mainnav").height());
   //Navigation Scroll Top
   $(window).scroll(function(){
     console.log("Scrolling...");
@@ -40,12 +41,10 @@ $(document).ready(function(){
     console.log("Navigation offset =" + $("#navfiller").offset().top);
     if($(window).scrollTop() > $("#navfiller").offset().top){
       console.log("fixed");
-      $("#mainnav").addClass("fixed").removeClass("posstatic");
-      $("#navfiller").height($("#mainnav").height());
+      $("#mainnav").addClass("fixed").removeClass("posabsolute");
     }else{
       console.log("static");
-      $("#mainnav").addClass("posstatic").removeClass("fixed");
-      $("#navfiller").height(0);
+      $("#mainnav").addClass("posabsolute").removeClass("fixed");
     }
   });
 });
