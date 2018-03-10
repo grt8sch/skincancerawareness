@@ -66,10 +66,10 @@ header{
     font-family: arial;
     text-align: left;
 }
-.posstatic{
-  position:static;
+.posabsolute{
+  position:absolute;
 }
-.fixed{
+.posfixed{
   position:fixed;
   top:0px;
 }
