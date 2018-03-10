@@ -31,7 +31,7 @@ img{
   float:right;
 }
 #info-background{
-  padding:0 25px;
+  padding:25px;
   /*background-color:rgba(255,255,255,0.8);*/
   background-color:white;
 }
