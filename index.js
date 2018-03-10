@@ -41,10 +41,10 @@ $(document).ready(function(){
     console.log("Navigation offset =" + $("#navfiller").offset().top);
     if($(window).scrollTop() > $("#navfiller").offset().top){
       console.log("fixed");
-      $("#mainnav").addClass("fixed").removeClass("posabsolute");
+      $("#mainnav").addClass("fixed").removeClass("absolute");
     }else{
-      console.log("static");
-      $("#mainnav").addClass("posabsolute").removeClass("fixed");
+      console.log("absolute");
+      $("#mainnav").addClass("absolute").removeClass("fixed");
     }
   });
 });
