@@ -101,5 +101,6 @@ header{
 #Citations{
   width:100%;
   height:500px;
+  border-style:solid;
   display:block;
 }
