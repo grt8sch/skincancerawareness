@@ -103,4 +103,5 @@ header{
   height:500px;
   border-style:solid;
   display:block;
+  overflow:visible !important;
 }
