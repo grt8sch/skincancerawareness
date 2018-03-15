@@ -94,3 +94,11 @@ header{
 .info-content article h1:first-child{
   margin-top: 0;
 }
+#campaign{
+  position:relative;
+  width:100%;
+}
+#citations{
+  position:relative;
+  width:100%;
+}
