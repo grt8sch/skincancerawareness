@@ -95,10 +95,10 @@ header{
   margin-top: 0;
 }
 #campaign{
-  width:calc(100%-150px);
+  width:75%;
   display:block;
 }
 #Citations{
-  width:calc(100%-150px);
+  width:75%;
   display:block;
 }
