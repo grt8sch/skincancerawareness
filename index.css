@@ -3,6 +3,9 @@ body{
   padding:0px;
   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
 }
+html,body{
+  height: 100%;
+}
 .nav-a{
   padding:15px 25px;
   background-color:rgb(96, 96, 96);
