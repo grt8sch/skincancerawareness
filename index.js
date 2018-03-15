@@ -9,6 +9,7 @@ $(document).ready(function(){
   function displayContent(){
     resetSelectedInfo();
     selectedInfo.delay(500).fadeIn(500);
+    $("#Citations").attr("src", function(i, val) { return val; });
   }
   //Hide Content of Nav
   function hideContent(){
